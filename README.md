@@ -5,4 +5,4 @@ gets() does not stop reading input when it encounters whitespace instead it take
 printf does not move the cursor to the new line by default,  
 puts moves the cursor to the new line by default.  
 <br>
-(malloc char *)[https://csnotes.medium.com/malloc-in-c-for-int-and-char-c3677b857b65]
+[malloc char *](https://csnotes.medium.com/malloc-in-c-for-int-and-char-c3677b857b65])  
