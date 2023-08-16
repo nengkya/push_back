@@ -6,3 +6,6 @@ printf does not move the cursor to the new line by default,
 puts moves the cursor to the new line by default.  
 <br>
 [malloc char *](https://csnotes.medium.com/malloc-in-c-for-int-and-char-c3677b857b65])  
+<br>
+    $ git -- rebase origin master    
+rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. I
