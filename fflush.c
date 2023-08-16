@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 int main() {
-	char * user, * old_password, * new_password;
+	/* NULL = 0 */
+	char * user = 0, * old_password, * new_password;
 
 	printf("Username : ");
-	gets(user);
-	
+	//fflush(stdout);
+	scanf("%s", user);
+
+	printf("Old password : ");
 }
