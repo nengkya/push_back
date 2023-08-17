@@ -10,8 +10,8 @@ puts moves the cursor to the new line by default.
 ```$ git --rebase origin master```  
 Changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. Internally, Git accomplishes this by creating new commits and applying them to the specified base.  
 <br>
-[BUFSIZ](https://c-for-dummies.com/blog/?p=4711)  
-[setvbuf setbuf](https://en.cppreference.com/w/c/io/setvbuf)  
+[setbuf(stdout, char *)](https://c-for-dummies.com/blog/?p=3701)  
+[setvbuf](https://en.cppreference.com/w/c/io/setvbuf)  
 [fflush](https://www.tutorialspoint.com/c_standard_library/c_function_fflush.htm)  
 <br>
 Buffering itu ada tiga : Unbuffered _IONBF, line buffered _IOLBF, fully Buffered _IOFBF.  
