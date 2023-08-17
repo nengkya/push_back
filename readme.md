@@ -19,6 +19,10 @@ Changing the base of your branch from one commit to another making it appear as 
 <br>
 [Buffering itu ada tiga : Unbuffered _IONBF, line buffered _IOLBF, fully Buffered _IOFBF.](https://c-for-dummies.com/blog/?p=3701)    
 <br>
+stdin itu unbuffered,  
+stdout line buffered,  
+stderr unbuffered.  
+<br>
 The C standard says this :  
 <br>
 The input and output dynamics of interactive devices shall take place as specified in 7.19.3.  
@@ -29,10 +33,6 @@ But it is not a requirement.
 The standard doesnt enforce it.  
 It is just a guideline. But most of the C implementations that I have used do this.  
 They flush the output buffer before reading input.  
-<br>
-stdin itu unbuffered,  
-stdout line buffered,  
-stderr unbuffered.
 <br>
 Line-buffered setiap ada newline, ngeflush.  
 Unbuffered langsung flush, tanpa disimpan di buffer dulu.  
