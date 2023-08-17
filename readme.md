@@ -33,8 +33,5 @@ Line-buffered setiap ada newline baru ngeflush dan unbuffered langsung diflush t
 Apa bedanya pake fflush sama engga ?
 Stupidy Excellent
 Terkait pertanyaan ini sebenernya cuman berpengaruh kalau libcnya nggak ikutin standard dimana tiap ngeread dari stdin nggak ngeflush `stdout`nya untuk defaultnya
-Oh iya, defaultnya 4096 bytes, Jadi jika nggak nemu newfline auto flushnya baru jalan kalau lebih dari 4096 bytes
-
-The C standard says this: The input and output dynamics of interactive devices ...
-【=◈︿◈=】 RtlExitUserProcess(EXIT_SUCCESS)
-mantap
+Oh iya, defaultnya 4096 bytes, Jadi jika nggak nemu newfline auto flushnya baru jalan kalau lebih dari 4096 bytes  
+[C javatpoint](https://www.javatpoint.com/c-programming-language-tutorial)
