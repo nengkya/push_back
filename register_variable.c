@@ -27,11 +27,11 @@ int main() {
 
 	register long register_ram = 10;
 	/*
-	cant use &
+	cant use &;
 	can use pointer * register;
 	*/
 	printf("\nregister long register_ram = %ld;\n\n", register_ram);
-	printf("cant use &\n"
+	printf("cant use &;\n"
 		   "can use pointer * register;\n\n");
 	printf("%s", register_definition);
 }
