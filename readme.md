@@ -9,6 +9,7 @@ gets() does not stop reading input when it encounters whitespace instead it take
 printf does not move the cursor to the new line by default,  
 puts moves the cursor to the new line by default.  
 <br>
+facebook matthew imtiaz flush simply allows you to control when the buffer is flushed to the console, this happens automatically and doesn't need to be done explicitly. It does not need to be called in this situation
 [malloc char *](https://csnotes.medium.com/malloc-in-c-for-int-and-char-c3677b857b65])  
 <br>
 ```$ git --rebase origin master```  
