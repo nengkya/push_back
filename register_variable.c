@@ -1,7 +1,19 @@
 #include <stdio.h>
 
 int main() {
-	char * register_definition =
+	/*
+		https://stackoverflow.com/questions/20944784/why-is-conversion-from-string-constant-to-char-valid-in-c-but-invalid-in-c
+		ISO C++11 forbids converting a string constant to ‘ char * ’
+
+		char * p = "abc"; //valid in C, invalid in C++11
+		char * p = (char *) "abc"; //valid in C++11
+
+		Up through C++03, first example was valid,
+		but used a deprecated implicit conversion--a string literal
+		should be treated as being of type char const *,
+		since you can't modify its contents (without causing undefined behavior).
+	*/
+	char const * register_definition = (char *)
 		"register is used to define local variables\n"
 		"that should be stored in a register instead of RAM.\n"
 		"This means that the variable has a maximum size\n"
